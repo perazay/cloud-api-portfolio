@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS portfolio_api;
+
+USE portfolio_api;
+
+CREATE TABLE IF NOT EXISTS item (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(120) NOT NULL,
+    description VARCHAR(255)
+);
